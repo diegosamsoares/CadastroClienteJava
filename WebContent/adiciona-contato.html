@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Adicionando Contatos</title>
+
+<script type="text/javascript">
+function Listar()
+{
+location.href="bemvindo.jsp"
+}
+</script>
+</head>
+
+<body>
+<h1>Contatos</h1>
+<form action="adicionaContato" method="POST">
+Nome:<input type="text" name="nome"/><br>
+Email:<input type="text" name="email"/><br>
+Endereço:<input type="text" name="endereco"/><br>
+Data de Nascimento:<input type="text" name="dataNascimento"/><br>
+
+<input type="submit" value="Gravar"/>
+<input type="button" onclick="Listar()" value="Listar"/>
+
+</form>
+
+</body>
+</html>
